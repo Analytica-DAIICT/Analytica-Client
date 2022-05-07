@@ -46,6 +46,7 @@ font-family: 'Roboto', sans-serif;
 .login-details {
   width: 35%;
   padding: 5px 3%;
+  overflow: auto;
 }
 .logo {
   height: 15vh;
@@ -111,6 +112,7 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
   overflow: hidden;
 }
 .google-logo {

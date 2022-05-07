@@ -13,6 +13,7 @@
   align-items: center;
   border-radius: 0;
   background-image: linear-gradient(#fc5c7d, #6a82fb);
+  background-image: linear-gradient(#8df599, #6a82fb);
 }
 .main {
   font-size: 0.7rem;
@@ -23,6 +24,7 @@
   padding: 0 10%;
   border-radius: 15px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+  overflow: auto;
 
   width: 70%;
   height: 80%;
@@ -73,6 +75,7 @@
 }
 .contact-info {
   font-size: 1.5em;
+  padding-bottom: 20px;
 }
 .contact-info a {
   text-decoration: none;
