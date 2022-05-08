@@ -103,7 +103,6 @@ font-family: 'Roboto', sans-serif;
   border-radius: 6px;
   padding: 12px 0;
   margin: 10px auto;
-  /* background: rgb(5, 84, 180); */
   background: #007aff;
   transition: all 1s ease;
 }
