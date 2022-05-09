@@ -155,14 +155,20 @@ font-family: 'Roboto', sans-serif;
   width: 100%;
   max-height: 100%;
 }
-.try-btn1 {
+.try-btn1,
+.more-testimonials-btn,
+.order-now-btn,
+.contact-us-submit-btn {
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
   border-radius: 30px;
   background: #007aff;
 }
-.try-btn1:hover {
+.try-btn1:hover,
+.more-testimonials-btn:hover,
+.order-now-btn:hover,
+.contact-us-submit-btn:hover {
   background: rgb(46, 157, 255);
 }
 
@@ -231,8 +237,128 @@ font-family: 'Roboto', sans-serif;
   transform: scale(0.5);
 }
 
-.box4 {
+.box4,
+.box5 {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  align-items: center;
+  margin: 30px;
+}
+
+.box5 {
+  flex-direction: column;
+}
+.box5 h3 {
+  font: 900 2em "Comfortaa";
+  text-align: center;
+  margin: 50px 0;
+}
+.box5 img {
+  width: 200px;
+}
+.box5 p {
+  width: 50%;
+  font: 400 1.2em "Comfortaa";
+  text-align: center;
+  margin: 30px 0;
+}
+
+.pricing-section {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10vw;
+  background: #121212;
+}
+.pricing-section h3 {
+  font: 900 2em "Comfortaa";
+  margin: 20px 0;
+}
+.pricing-section > p {
+  font: 400 1.2em "Roboto";
+}
+.pricing-plan {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.pricing-plan-item {
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  padding: 20px 10px;
+  background: #fafafa;
+  border-radius: 10px;
+}
+.pricing-plan-item p {
+  text-align: center;
+  margin: 15px 0;
+}
+.plan-price {
+  font: 900 2em "Comfortaa";
+}
+.pricing-plan-item:nth-child(2) {
+  color: #fafafa;
+  background: #007aff;
+}
+.pricing-plan-item:nth-child(2) .plan-price {
+  margin: 70px 0;
+}
+.pricing-plan-item:nth-child(2) .order-now-btn {
+  background: #fafafa;
+  color: #007aff;
+}
+
+.contact-us {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 5vw;
+  border: 2px solid red;
+}
+.contact-us h3 {
+  font: 900 2em "Comfortaa";
+  margin: 20px 0;
+}
+.contact-us > div {
+  width: 70%;
+  display: flex;
+}
+.contact-us-1 {
+  width: 30%;
+  padding: 20px;
+  border: 2px solid #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #e0e0e0, -2px -2px 2px #e0e0e0;
+}
+.contact-us-2 {
+  width: 60%;
+}
+.contact-us-1 h4 {
+  font: 700 1.2em "Comfortaa";
+  text-align: center;
+  margin: 10px 0;
+}
+.contact-us-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 80%;
+  font-family: "Comfortaa";
+  padding: 10px 15px;
+  margin: 10px auto;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: #f0f0f0;
 }
