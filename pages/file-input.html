@@ -73,10 +73,13 @@
         </ul>
       </div>
       <div class="upload-data">
-        <a href="#" class="upload-file-btn">
-          <i class="fa fa-eye" id="pass-show-icon" aria-hidden="true"></i>
-          Upload Data
-        </a>
+        <form action="" class="upload-file-form w-100">
+          <label class="upload-file-btn">
+            <input type="file" class="upload-btn" />
+            <i class="fas fa-cloud-upload"></i>
+            Upload Data
+          </label>
+        </form>
       </div>
     </div>
 
@@ -85,22 +88,25 @@
         <div class="title-bar-1">
           <h2>Overview</h2>
           <div>
-            <i class="fa fa-eye" id="pass-show-icon" aria-hidden="true"></i>
-            <i class="fa fa-eye" id="pass-show-icon" aria-hidden="true"></i>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-bell" aria-hidden="true"></i>
           </div>
         </div>
         <div class="title-bar-2">
-          <span>John Deo</span>
-          <img src="/images/google-logo.png" alt="profile">
+          <span>Radhe Shyam</span>
+          <img src="/images/profile-pic.png" alt="profile">
         </div>
       </div>
       <div>
         <div class="box box1">
           <h3>Upload Database Files</h3>
-          <a href="#" class="upload-datafile-btn">
-            <i class="fa fa-eye" id="pass-show-icon" aria-hidden="true"></i>
-            Upload Data Files
-          </a>
+          <form action="" class="upload-file-form">
+            <label class="upload-file-label">
+              <input type="file" class="upload-btn" />
+              <i class="fas fa-cloud-upload"></i>
+              Upload Data Files
+            </label>
+          </form>
           <p>or drop files here</p>
         </div>
         <div class="box box2">
@@ -109,6 +115,8 @@
       </div>
     </div>
   </div>
+
+  <script src="https://kit.fontawesome.com/b1d5d9d13c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

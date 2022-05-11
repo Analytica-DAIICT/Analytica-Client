@@ -9,6 +9,7 @@
     integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/style/dashboard.css">
+  <link rel="stylesheet" href="/style/file-input.css">
   <title>Dashboard | Analytica</title>
 </head>
 
@@ -73,10 +74,13 @@
         </ul>
       </div>
       <div class="upload-data">
-        <a href="#" class="upload-file-btn">
-          <i class="fa fa-eye" id="pass-show-icon" aria-hidden="true"></i>
-          Upload Data
-        </a>
+        <form action="" class="upload-file-form w-100">
+          <label class="upload-file-btn">
+            <input type="file" class="upload-btn" />
+            <i class="fas fa-cloud-upload"></i>
+            Upload Data
+          </label>
+        </form>
       </div>
     </div>
 
@@ -85,13 +89,13 @@
         <div class="title-bar-1">
           <h2>Overview</h2>
           <div>
-            <i class="fa fa-eye" id="pass-show-icon" aria-hidden="true"></i>
-            <i class="fa fa-eye" id="pass-show-icon" aria-hidden="true"></i>
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-bell" aria-hidden="true"></i>
           </div>
         </div>
         <div class="title-bar-2">
           <span>John Deo</span>
-          <img src="/images/google-logo.png" alt="profile">
+          <img src="/images/profile-pic.png" alt="profile">
         </div>
       </div>
 
