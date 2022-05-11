@@ -45,13 +45,17 @@ font-family: 'Roboto', sans-serif;
   padding: 5px 10px;
 }
 .navbar-ul-1 li:hover {
-  box-shadow: 0px 1px 1px #fff;
+  border-radius: 5px;
+  box-shadow: 2px 0 15px #f0f0f0;
 }
 .navbar-ul-1 {
   min-width: fit-content;
 }
 .navbar-ul-2 {
   min-width: fit-content;
+}
+.navbar-ul-2 .try-btn1 {
+  border-radius: 5px;
 }
 .navbar-ul-2 img {
   width: 25px;
@@ -62,7 +66,7 @@ font-family: 'Roboto', sans-serif;
   height: 100px;
   margin-top: 50px;
   padding: 5px;
-  background: #fff;
+  background: #f0f0f0;
   border-radius: 10px;
 }
 .logo img {
@@ -80,7 +84,7 @@ font-family: 'Roboto', sans-serif;
   background: #007aff;
 }
 .try-btn:hover {
-  background: #00f;
+  background: rgb(46, 157, 255);
 }
 
 .info-line-1 {
@@ -111,8 +115,10 @@ font-family: 'Roboto', sans-serif;
   flex-direction: column;
   align-items: center;
 }
-.feature-item img {
-  width: 50%;
+.feature-item i {
+  font-size: 3em;
+  color: #007aff;
+  margin-bottom: 10px;
 }
 .feature-item p {
   text-align: center;
@@ -132,6 +138,7 @@ font-family: 'Roboto', sans-serif;
   width: 60%;
   display: flex;
   margin: 20px auto;
+  font-family: "Comfortaa";
 }
 .box2-1,
 .box2-2 {
@@ -320,7 +327,6 @@ font-family: 'Roboto', sans-serif;
   flex-direction: column;
   align-items: center;
   padding: 20px 5vw;
-  border: 2px solid red;
 }
 .contact-us h3 {
   font: 900 2em "Comfortaa";
@@ -339,6 +345,9 @@ font-family: 'Roboto', sans-serif;
 }
 .contact-us-2 {
   width: 60%;
+}
+.contact-us-2 i {
+  color: #007aff;
 }
 .contact-us-1 h4 {
   font: 700 1.2em "Comfortaa";
@@ -361,4 +370,81 @@ font-family: 'Roboto', sans-serif;
   outline: none;
   border-radius: 20px;
   background: #f0f0f0;
+}
+.contact-us-2 > div {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.contact-us-2 > div:nth-child(1) {
+  justify-content: space-between;
+}
+.contact-us-2-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+.contact-us-2-1 i {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.contact-us-2 > div:nth-child(2) > img {
+  width: 20vw;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.footer {
+  width: 100vw;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  padding: 5vw 20vw;
+  background: #000;
+}
+.footer > div {
+  margin: 0 5vw;
+}
+.footer > div:first-child > p {
+  font: 500 1.2em "Comfortaa";
+  text-align: center;
+  margin-bottom: 5px;
+}
+.footer-menus {
+  list-style: none;
+}
+.footer-menus li {
+  text-align: center;
+  padding: 10px 0;
+}
+.footer-menus li:hover {
+  border-radius: 5px;
+  box-shadow: 1px 0 10px #f0f0f0;
+}
+.footer-menus li a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+.footer-1 {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+.footer-1 p {
+  font-size: 1rem;
+  margin-left: 10px;
+}
+.footer-1 p a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+.footer-social-media {
+  display: flex;
+  list-style: none;
+}
+.footer-social-media img {
+  width: 30px;
+  margin: 10px;
 }
