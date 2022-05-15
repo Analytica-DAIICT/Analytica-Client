@@ -72,14 +72,8 @@
           </li>
         </ul>
       </div>
-      <div class="upload-data">
-        <form action="" class="upload-file-form w-100">
-          <label class="upload-file-btn">
-            <input type="file" class="upload-btn" />
-            <i class="fas fa-cloud-upload"></i>
-            Upload Data
-          </label>
-        </form>
+      <div class="upload-data-btn">
+        Upload Data
       </div>
     </div>
 
@@ -98,25 +92,27 @@
         </div>
       </div>
       <div>
-        <div class="box box1">
-          <h3>Upload Database Files</h3>
-          <form action="" class="upload-file-form">
-            <label class="upload-file-label">
-              <input type="file" class="upload-btn" />
-              <i class="fas fa-cloud-upload"></i>
-              Upload Data Files
-            </label>
+        <div class="box drag-area">
+          <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+          <header>Drag & Drop to Upload File</header>
+          <span>OR</span>
+          <button class="file-select-btn">Browse File</button>
+          <form action="">
+            <input type="file" id="files" name="files" multiple="multiple" hidden>
+            <button type="submit" class="drag-area-submit-btn">Start Analyzing</button>
           </form>
-          <p>or drop files here</p>
         </div>
+
         <div class="box box2">
-          File Preview
+          <p>Uploaded Files</p>
+          <div class="uploaded-files"></div>
         </div>
       </div>
     </div>
   </div>
 
   <script src="https://kit.fontawesome.com/b1d5d9d13c.js" crossorigin="anonymous"></script>
+  <script src="/scipt/file-input.js"></script>
 </body>
 
 </html>
