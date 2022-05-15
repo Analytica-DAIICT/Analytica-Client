@@ -9,6 +9,7 @@ font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .box1 {
@@ -99,6 +100,8 @@ font-family: 'Roboto', sans-serif;
   margin: auto;
   display: flex;
   flex-direction: column;
+  background: #f0f0f0;
+  border-radius: 10px;
 }
 .features h3 {
   font-size: 2em;
@@ -108,6 +111,7 @@ font-family: 'Roboto', sans-serif;
 .feature-items {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 .feature-item {
   width: 25%;
@@ -130,11 +134,12 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 .feature-video video {
   height: 100%;
   border: 2px solid #e0e0e0;
+  border-radius: 15px;
 }
 
 .box2 {
@@ -142,6 +147,8 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   margin: 20px auto;
   font-family: "Comfortaa";
+  background: #f0f0f0;
+  border-radius: 10px;
 }
 .box2-1,
 .box2-2 {
@@ -187,6 +194,8 @@ font-family: 'Roboto', sans-serif;
   font-family: "Comfortaa";
   display: flex;
   margin: 20px auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
 }
 .box3-1,
 .box3-2 {
@@ -233,6 +242,9 @@ font-family: 'Roboto', sans-serif;
 .partners {
   width: 60%;
   margin: 20px auto;
+  background: #f0f0f0;
+  padding-top: 5px;
+  border-radius: 10px;
 }
 .partners h4 {
   font: 900 2em "Comfortaa";
@@ -257,16 +269,18 @@ font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .box5 {
   flex-direction: column;
 }
 .box5 h3 {
+  width: 60%;
   font: 900 2em "Comfortaa";
   text-align: center;
-  margin: 50px 0;
+  padding: 50px 0;
+  border-top: 2px solid gray;
 }
 .box5 img {
   width: 200px;
@@ -341,12 +355,12 @@ font-family: 'Roboto', sans-serif;
   margin: 20px 0;
 }
 .contact-us > div {
-  width: 70%;
+  width: 80%;
   display: flex;
 }
 .contact-us-1 {
-  width: 30%;
-  padding: 20px;
+  width: 25%;
+  padding: 20px 0;
   border: 2px solid #f0f0f0;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #e0e0e0, -2px -2px 2px #e0e0e0;
@@ -392,6 +406,7 @@ font-family: 'Roboto', sans-serif;
   flex-direction: column;
   align-items: center;
   margin: 5px;
+  font-size: 0.8em;
 }
 .contact-us-2-1 i {
   font-size: 1.5rem;
