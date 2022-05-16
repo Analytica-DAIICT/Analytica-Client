@@ -44,10 +44,15 @@ dropArea.addEventListener("drop", (event) => {
 });
 
 function showFile() {
-  let validExtensions = ["application/pdf", "application/csv"]; //adding some valid image extensions in array
+  let validExtensions = [
+    "application/pdf",
+    "text/plain",
+    "application/vnd.ms-excel",
+  ]; //adding some valid image extensions in array
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
     let fileType = file.type;
+    console.log(fileType);
     if (validExtensions.includes(fileType)) {
       let previewBox = document.querySelector(".uploaded-files");
       previewBox.innerHTML += `<p>${file.name}</p>`;
